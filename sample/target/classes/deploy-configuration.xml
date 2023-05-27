@@ -1,0 +1,19 @@
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:c="http://www.springframework.org/schema/c" xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--    <bean class="io.swagger.v3.oas.integration.SwaggerConfiguration"/>-->
+    <bean class="com.thetransactioncompany.cors.CORSConfiguration">
+        <constructor-arg>
+            <props>
+                <prop key="c:corsMapping">"${cors.mapping}"</prop>
+                <prop key="c:corsAllowedOrigins">"${cors.allowedOrigins}"</prop>
+                <prop key="c:corsAllowedMethods">"${cors.allowedMethods}"</prop>
+                <prop key="c:corsAllowedHeaders">"${cors.allowedHeaders}"</prop>
+                <prop key="c:corsExposedHeaders">"${cors.exposedHeaders}"</prop>
+                <prop key="c:corsAllowCredentials">"${cors.allowCredentials}"</prop>
+                <prop key="c:corsMaxAge">"${cors.maxAgeSecond}"</prop>
+
+            </props>
+        </constructor-arg>
+    </bean>
+</beans>

@@ -1,0 +1,29 @@
+2023-05-27 08:55:32,040 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-05-27 08:55:32,092 INFO o.s.b.StartupInfoLogger [main] Starting ControllerTest using Java 17.0.7 with PID 14144 (started by jafar in D:\app\JavaProject\sample)
+2023-05-27 08:55:32,097 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-05-27 08:55:33,084 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-27 08:55:33,164 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+2023-05-27 08:55:33,801 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-27 08:55:33,878 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-05-27 08:55:34,323 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-05-27 08:55:34,495 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:test user=SA
+2023-05-27 08:55:34,498 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-05-27 08:55:34,526 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-05-27 08:55:35,322 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-27 08:55:35,330 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-27 08:55:35,713 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-27 08:55:35,752 WARN o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: f844f325-6494-47b2-ae7d-5b3242975aa9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-05-27 08:55:36,129 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@341c0dfc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e0b68e5, org.springframework.security.web.context.SecurityContextHolderFilter@53fd59d4, com.sample.app.common.config.SecurityConfiguration$SecurityContextFilter@507fecf3, org.springframework.security.web.header.HeaderWriterFilter@2daa5092, org.springframework.security.web.authentication.logout.LogoutFilter@22cf1808, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7156f8cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@260fffec, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71dfca65, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f1d4ecf, org.springframework.security.web.session.SessionManagementFilter@66e62e19, org.springframework.security.web.access.ExceptionTranslationFilter@3da6950f, org.springframework.security.web.access.intercept.AuthorizationFilter@2e2c9e24]
+2023-05-27 08:55:36,473 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [main] H2 console available at '/h2'. Database available at 'jdbc:h2:mem:test'
+2023-05-27 08:55:36,567 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-05-27 08:55:36,567 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-05-27 08:55:36,569 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 2 ms
+2023-05-27 08:55:36,591 INFO o.s.b.StartupInfoLogger [main] Started ControllerTest in 4.785 seconds (process running for 6.139)
+2023-05-27 08:55:37,316 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-27 08:55:37,324 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-05-27 08:55:37,330 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
